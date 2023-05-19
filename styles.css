@@ -1,0 +1,213 @@
+* {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+}
+
+#logo {
+    width: 125px;
+    height: 62px;
+    margin-left: 56px;
+    margin-top: 52px;
+}
+
+#header {
+    background-image: url(./images/header.svg);
+    background-size: 100%;
+    margin: 0;
+}
+
+#header h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 128.5%;
+    color: #FFFFFF;
+    margin-left: 172px;
+    margin-top: 70px;
+}
+
+#header p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin: 32px 0 150px 172px;
+}
+
+#informationalMenu {
+    background-color: #EAECE5;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.information {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.information p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #122235;
+    padding: 70px 0 70px 0;
+}
+
+#video h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+    color: #247BA0;
+    margin-top: 97px;
+    margin-bottom: 24px;
+}
+
+#video p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #383838;
+    margin-bottom: 100px;
+}
+
+#statements {
+    background-color: #247BA0;
+    padding: 0 0 80px 0;
+}
+
+#statements h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+    text-align: center;
+    color: #EAECE5;
+    margin-top: 80px;
+}
+
+.people {
+    display: grid;
+    grid-auto-flow: column;
+    background-color: white;
+    border-radius: 16px;
+    padding: 32px 40px 32px 40px;
+    margin-left: 50px;
+}
+
+#cards {
+    display: flex;
+    margin-top: 64px;
+    align-items: center;
+    margin-left: 175px;
+}
+
+#rightArrow {
+    margin-left: 80px;
+}
+
+
+
+#form {
+    text-align: center;
+}
+
+#form h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+    color: #383838;
+    margin-bottom: 50px;
+    margin-top: 22px;
+}
+
+.textInput {
+    padding: 15px 200px 15px 20px;
+    border-radius: 8px;
+    border: none;
+    background-color: #EAECE5;
+    margin-bottom: 40px;
+    gap: 50px;
+}
+
+button {
+    padding: 12px 50px 12px 50px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+    background-color: #247BA0;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 100px;
+    cursor: pointer;
+}
+
+.people img {
+    border-radius: 50px;
+}
+
+.cardText {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #383838;
+    margin-left: 24px;
+}
+
+.cardName {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #383838;
+    margin-left: 24px;
+    margin-top: 10px;
+}
+
+#youtube {
+    margin-left: 150px;
+    margin-top: 90px;
+}
+
+#samantha {
+    display: none;
+}
+
+#leftArrow {
+    display: none;
+}
+
+.arrow {
+    cursor: pointer;
+}
+
+.arrow:hover {
+    transform: translateY(-7px);
+    transition-duration: 0.6s;
+}
+
+button:hover {
+    background-color: #3897c0;
+    color: #FFFFFF;
+    transform: translateY(-5px);
+    transition-duration: 0.7s;
+    box-shadow: 0px 15px 20px #20307a7e;
+}
